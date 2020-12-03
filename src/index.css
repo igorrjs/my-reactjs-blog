@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  z-index: 9999;
+  color: #21759b;
+  font-size: 50px;
+  cursor: pointer;
+}
+#toTop:hover {
+  color: #d54e21;
+}
+.large-img {
+  background: url(./images/large-img.jpg) left center no-repeat #000000;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.large-img span {
+  padding: 5px;
+}
+.logo {
+  width: 26px;
+  height: 26px;
+}
+.card {
+  overflow: hidden;
+}
+.card .card-body img {
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  opacity: 0.3;
+}
+.App {
+  background-color: #F8F8F8;
+}
+.my-navbar {
+  background-color: #282c34;
+}
+.jumbotron-footer {
+  background-color: #282c34;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.card-title-react {
+  color: #21759b;
+}
+a.card-title-react:hover {
+  text-decoration: none;
+  color: #d54e21;
+}
+a.list-group-item-light:hover {
+  text-decoration: none;
+}
